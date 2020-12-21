@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String on the contrary</title>
+</head>
+<body>
+<h1>Выводим строку наоборот</h1>
+    <script>
+        'use strict'
+      
+        let om = prompt('Введите любое слово или предложение', '');
+        let i = om.length - 1;
+        function stringContrari() {
+            for (i; i > -1; i = i - 1) {
+                console.log(om[i]);
+            }
+        }
+        stringContrari();
+
+    </script>
+</body>
+</html>
